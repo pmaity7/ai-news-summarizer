@@ -26,9 +26,10 @@ pip install -r requirements.txt
 ```
 
 ### Environment Variables
-Create a `.env` file:
-```
-NEWS_API_KEY=your_key_here
+Copy `.env.example` to `.env` and fill in your values:
+\```bash
+cp .env.example .env
+\```
 ```
 
 ### Run
