@@ -18,7 +18,7 @@ A local AI pipeline that fetches news from multiple sources, summarizes them usi
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/ai-news-summarizer
+git clone https://github.com/pmaity7/ai-news-summarizer
 cd ai-news-summarizer
 python -m venv venv
 source venv/bin/activate
