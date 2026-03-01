@@ -53,3 +53,15 @@ python main.py --topic "AI agents" --articles 5 --output markdown --save
     ├── newsapi_fetcher.py
     └── hackernewsapi_fetcher.py
 ```
+
+## n8n Workflow
+
+The n8n workflow is included in `/n8n/workflow.json`.
+
+To import it:
+1. Open n8n
+2. Click **Add Workflow**
+3. Click the three dots menu → **Import from file**
+4. Select `workflow.json`
+5. Update the HTTP Request URL to your local Flask endpoint
+6. Add your Gmail SMTP credentials
