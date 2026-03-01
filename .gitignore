@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env.*/
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Environment secrets
+.env
+
+# Generated briefing files
+briefing_*.txt
+briefing_*.md
+
